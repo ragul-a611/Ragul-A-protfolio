@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ragul A — Full Stack Developer</title>
+<meta name="description" content="Ragul A — Full Stack Developer & Cyber Security enthusiast. Portfolio, projects and certifications.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ambient backdrop -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-glow bg-glow--one"></div>
+  <div class="bg-glow bg-glow--two"></div>
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a href="#top" class="brand">
+      <span class="brand-mark">Ragul <span class="brand-mark-accent">A.</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn--ghost btn--sm">Let's talk</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="section-inner hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>Open to full-stack roles &amp; internships</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-accent">Ragul A</span><br>
+          <span class="hero-role-wrap"><span class="hero-role" id="heroRole">Full Stack Developer</span></span>
+        </h1>
+        <p class="hero-desc">
+          B.E. Computer Science Engineering student at Kavery Engineering College, Mecheri —
+          building complete web &amp; desktop systems end to end, from interface to database,
+          with a growing focus on cyber security.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="assets/resume/Ragul_A_Resume.pdf" class="btn btn--outline" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+            Download Resume
+          </a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+
+        <div class="hero-meta">
+          <a href="mailto:ragularthanari@gmail.com" class="hero-meta-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/></svg>
+            ragularthanari@gmail.com
+          </a>
+          <a href="tel:+919342251758" class="hero-meta-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +91 93422 51758
+          </a>
+          <span class="hero-meta-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Salem, Tamil Nadu, India
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap reveal reveal--delay-1" id="heroPhotoWrap">
+        <div class="hero-photo-frame">
+          <img src="assets/images/profile.jpg" alt="Portrait of Ragul A" class="hero-photo">
+        </div>
+        <div class="hero-seal" aria-hidden="true">
+          <svg viewBox="0 0 100 100" class="hero-seal-ring">
+            <path id="sealCircle" d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" fill="none"/>
+            <text font-size="8.6" letter-spacing="2.6">
+              <textPath href="#sealCircle" startOffset="0%">RAGUL A · FULL STACK · SALEM · </textPath>
+            </text>
+          </svg>
+          <span class="hero-seal-check">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg>
+          </span>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat">
+            <strong>Full Stack Developer</strong>
+            <span>Profile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">About</p>
+      <h2 class="section-title reveal">Building things that work, end to end.</h2>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>
+            I'm a final-year Computer Science &amp; Engineering student who likes finishing what I start —
+            not just the interface, but the logic, the data and the deployment behind it. My work spans
+            full stack web apps built with the MERN stack, Python and Django, desktop software built with
+            Python and Tkinter, and a growing interest in cyber security, where I've trained in encryption,
+            password auditing and secure system design.
+          </p>
+          <p>
+            I care about projects that solve one real problem cleanly — a patient management desktop app,
+            a result portal, a security toolkit — rather than staying half-built demos. Currently open to
+            full stack developer roles and internships where I can keep building that way.
+          </p>
+        </div>
+
+        <div class="about-facts reveal reveal--delay-1">
+          <div class="fact-card">
+            <span class="fact-label mono">EDUCATION</span>
+            <span class="fact-value">B.E. Computer Science &amp; Engineering</span>
+            <span class="fact-sub">Kavery Engineering College, Mecheri</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label mono">LOCATION</span>
+            <span class="fact-value">Salem, Tamil Nadu, India</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label mono">FOCUS</span>
+            <span class="fact-value">Full Stack Dev · UI/UX · Cyber Security</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label mono">STATUS</span>
+            <span class="fact-value"><span class="dot-live"></span> Open to opportunities</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section--panel" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Skills</p>
+      <h2 class="section-title reveal">Tools I build with.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <h3>Frontend</h3>
+          </div>
+          <div class="tag-row">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React.js</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal--delay-1">
+          <div class="skill-card-head">
+            <span class="skill-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </span>
+            <h3>Backend</h3>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Python</span>
+            <span class="tag">Django</span>
+            <span class="tag">Java</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal--delay-2">
+          <div class="skill-card-head">
+            <span class="skill-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v6c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 11v6c0 1.66 4 3 9 3s9-1.34 9-3v-6"/></svg>
+            </span>
+            <h3>Database</h3>
+          </div>
+          <div class="tag-row">
+            <span class="tag">MySQL</span>
+            <span class="tag">MySQL Workbench</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </span>
+            <h3>Tools</h3>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal--delay-1">
+          <div class="skill-card-head">
+            <span class="skill-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </span>
+            <h3>Focus Areas</h3>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Full Stack Development</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Cyber Security</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Projects</p>
+      <h2 class="section-title reveal">Selected work.</h2>
+
+      <!-- Project 1 -->
+      <article class="project reveal">
+        <div class="project-media">
+          <button class="lightbox-trigger" data-lightbox-group="patient" data-lightbox-index="0">
+            <img src="assets/images/project-patient-mgmt.jpg" alt="Patient Record and Prescription Management System screens" loading="lazy">
+            <span class="media-expand">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              View full
+            </span>
+          </button>
+        </div>
+        <div class="project-copy">
+          <span class="project-tag mono">DESKTOP APPLICATION</span>
+          <h3>Patient Record &amp; Prescription Management System</h3>
+          <p>
+            A desktop application to manage patient information, medical history, prescriptions
+            and billing efficiently, with one-click PDF and text export for prescriptions and bills.
+          </p>
+          <ul class="feature-list">
+            <li>Add, edit and delete patient records</li>
+            <li>Maintain per-patient medical history</li>
+            <li>Create prescriptions with dosage &amp; frequency</li>
+            <li>Billing &amp; invoice generation</li>
+            <li>Export prescriptions / bills as PDF or text</li>
+            <li>Search across patient records</li>
+          </ul>
+          <div class="tag-row tag-row--tech">
+            <span class="tag tag--mono">Python</span>
+            <span class="tag tag--mono">Tkinter</span>
+            <span class="tag tag--mono">ReportLab</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project project--reverse reveal">
+        <div class="project-media project-media--browser">
+          <div class="browser-panel">
+            <div class="browser-panel-head">
+              <span class="browser-url">college-result-portal-bay.vercel.app</span>
+              <span class="browser-live-pill"><span class="dot-live"></span>Live</span>
+            </div>
+            <div class="browser-panel-body">
+              <div class="browser-row browser-row--head">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="browser-row"><span></span><span></span><span></span></div>
+              <div class="browser-row"><span></span><span></span><span></span></div>
+              <div class="browser-row"><span></span><span></span><span></span></div>
+              <div class="browser-row browser-row--ghost"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-copy">
+          <span class="project-tag mono">LIVE WEB APP</span>
+          <h3>Student Result Management System</h3>
+          <p>
+            A web portal for publishing and managing student academic results, deployed and
+            live for anyone to try — no setup required.
+          </p>
+          <div class="project-actions">
+            <a href="https://college-result-portal-bay.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm">
+              Live Demo
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project reveal">
+        <div class="project-media project-media--gallery">
+          <button class="lightbox-trigger lightbox-trigger--main" data-lightbox-group="cybersec" data-lightbox-index="0">
+            <img src="assets/images/project-cybersec-dashboard.jpg" alt="Cyber Security Toolkit dashboard screen" loading="lazy">
+            <span class="media-expand">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              View full
+            </span>
+          </button>
+          <div class="gallery-strip">
+            <button class="lightbox-trigger gallery-thumb" data-lightbox-group="cybersec" data-lightbox-index="1">
+              <img src="assets/images/project-cybersec-welcome.jpg" alt="Cyber Security Toolkit welcome screen" loading="lazy">
+            </button>
+            <button class="lightbox-trigger gallery-thumb" data-lightbox-group="cybersec" data-lightbox-index="2">
+              <img src="assets/images/project-cybersec-login.jpg" alt="Cyber Security Toolkit login screen" loading="lazy">
+            </button>
+          </div>
+        </div>
+        <div class="project-copy">
+          <span class="project-tag mono">DESKTOP APPLICATION</span>
+          <h3>Cyber Security Toolkit</h3>
+          <p>
+            A desktop security suite that brings everyday security checks into one dashboard —
+            built to secure, encrypt and protect in a few clicks.
+          </p>
+          <ul class="feature-list feature-list--grid">
+            <li>Password strength checker</li>
+            <li>Secure password generator</li>
+            <li>File encryption &amp; decryption</li>
+            <li>Hash generator &amp; checker</li>
+            <li>URL security scanner</li>
+            <li>Login-protected dashboard</li>
+          </ul>
+          <div class="tag-row tag-row--tech">
+            <span class="tag tag--mono">Python</span>
+            <span class="tag tag--mono">Tkinter</span>
+            <span class="tag tag--mono">Cryptography</span>
+          </div>
+        </div>
+      </article>
+
+      <div class="project-more reveal">
+        <span class="mono">MORE_PROJECTS —</span> This portfolio is actively growing. New builds get added here first.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section class="section section--panel" id="certificates">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Certificates</p>
+      <h2 class="section-title reveal">Training &amp; internships.</h2>
+
+      <div class="cert-grid">
+
+        <div class="cert-card reveal">
+          <button class="lightbox-trigger cert-thumb" data-lightbox-group="certs" data-lightbox-index="0">
+            <img src="assets/certificates/cert-mern-aalan.jpg" alt="MERN Stack internship certificate from Aalan Tech Soft" loading="lazy">
+            <span class="media-expand media-expand--sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </span>
+          </button>
+          <div class="cert-info">
+            <h3>MERN Stack Internship</h3>
+            <p class="cert-issuer">Aalan Tech Soft</p>
+            <p class="cert-date mono">16 Dec 2025 — 03 Jan 2026</p>
+            <a href="assets/certificates/cert-mern-aalan.jpg" download class="cert-download">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal--delay-1">
+          <button class="lightbox-trigger cert-thumb" data-lightbox-group="certs" data-lightbox-index="1">
+            <img src="assets/certificates/cert-cybersecurity-thinkinfo.jpg" alt="Cyber Security internship certificate from ThinkInfo Expert Solutions" loading="lazy">
+            <span class="media-expand media-expand--sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </span>
+          </button>
+          <div class="cert-info">
+            <h3>Cyber Security Internship</h3>
+            <p class="cert-issuer">ThinkInfo Expert Solutions</p>
+            <p class="cert-date mono">25 May 2026 — 11 Jun 2026</p>
+            <a href="assets/certificates/cert-cybersecurity-thinkinfo.jpg" download class="cert-download">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal--delay-2">
+          <button class="lightbox-trigger cert-thumb" data-lightbox-group="certs" data-lightbox-index="2">
+            <img src="assets/certificates/cert-python-imagecon.jpg" alt="Python internship certificate from Imagecon India Private Limited" loading="lazy">
+            <span class="media-expand media-expand--sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </span>
+          </button>
+          <div class="cert-info">
+            <h3>Python Internship</h3>
+            <p class="cert-issuer">Imagecon India Private Limited</p>
+            <p class="cert-date mono">02 Jul 2025 — 11 Jul 2025</p>
+            <a href="assets/certificates/cert-python-imagecon.jpg" download class="cert-download">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <button class="lightbox-trigger cert-thumb" data-lightbox-group="certs" data-lightbox-index="3">
+            <img src="assets/certificates/cert-fullstack-novitech.jpg" alt="Full Stack Development certificate from NoviTech R&D Private Limited" loading="lazy">
+            <span class="media-expand media-expand--sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </span>
+          </button>
+          <div class="cert-info">
+            <h3>Full Stack Development</h3>
+            <p class="cert-issuer">NoviTech R&amp;D Private Limited</p>
+            <p class="cert-date mono">23 Sep 2025 — 03 Nov 2025</p>
+            <a href="assets/certificates/cert-fullstack-novitech.jpg" download class="cert-download">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal--delay-1">
+          <button class="lightbox-trigger cert-thumb" data-lightbox-group="certs" data-lightbox-index="4">
+            <img src="assets/certificates/cert-uiux-novitech.jpg" alt="UI/UX Design certificate from NoviTech R&D Private Limited" loading="lazy">
+            <span class="media-expand media-expand--sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </span>
+          </button>
+          <div class="cert-info">
+            <h3>UI/UX Design</h3>
+            <p class="cert-issuer">NoviTech R&amp;D Private Limited</p>
+            <p class="cert-date mono">28 Jan 2025 — 28 Feb 2025</p>
+            <a href="assets/certificates/cert-uiux-novitech.jpg" download class="cert-download">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Download
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section class="section resume-cta" id="resume">
+    <div class="section-inner resume-cta-inner reveal">
+      <div>
+        <p class="section-eyebrow">Resume</p>
+        <h2 class="section-title">Want the full picture?</h2>
+        <p class="resume-cta-desc">Download my resume for a complete summary of my education, skills and project experience.</p>
+      </div>
+      <a href="assets/resume/Ragul_A_Resume.pdf" class="btn btn--primary btn--lg" download>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+        Download Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section--panel" id="contact">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Contact</p>
+      <h2 class="section-title reveal">Let's build something.</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-lead">
+            Have a role, a project, or just want to talk full stack &amp; security? My inbox is open.
+          </p>
+
+          <a href="mailto:ragularthanari@gmail.com" class="contact-item">
+            <span class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/></svg>
+            </span>
+            <span>
+              <span class="contact-label mono">EMAIL</span>
+              <span class="contact-value">ragularthanari@gmail.com</span>
+            </span>
+          </a>
+
+          <a href="tel:+919342251758" class="contact-item">
+            <span class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <span>
+              <span class="contact-label mono">PHONE</span>
+              <span class="contact-value">+91 93422 51758</span>
+            </span>
+          </a>
+
+          <a href="https://github.com/ragul-a611" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+            </span>
+            <span>
+              <span class="contact-label mono">GITHUB</span>
+              <span class="contact-value">ragul-a611</span>
+            </span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/ragul-a-83899b2a2" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span>
+              <span class="contact-label mono">LINKEDIN</span>
+              <span class="contact-value">ragul-a-83899b2a2</span>
+            </span>
+          </a>
+
+          <a href="#" class="contact-item contact-item--static" tabindex="-1">
+            <span class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <span>
+              <span class="contact-label mono">LOCATION</span>
+              <span class="contact-value">Salem, Tamil Nadu, India</span>
+            </span>
+          </a>
+        </div>
+
+        <form class="contact-form reveal reveal--delay-1" id="contactForm">
+          <div class="form-row">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-row form-row--split">
+            <div>
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="you@email.com" required>
+            </div>
+            <div>
+              <label for="cf-phone">Phone</label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="+91 00000 00000">
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+          </div>
+
+          <input type="hidden" name="_subject" value="New message from portfolio site">
+          <input type="text" name="_honey" class="hp-field" tabindex="-1" autocomplete="off">
+
+          <button type="submit" class="btn btn--primary btn--full" id="cfSubmit">
+            Send Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+
+          <p class="form-status" id="cfStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <span class="brand-mark brand-mark--sm">Ragul <span class="brand-mark-accent">A.</span></span>
+    <p class="mono footer-text">© 2026 Ragul A. Built &amp; deployed with care.</p>
+    <div class="footer-links">
+      <a href="https://github.com/ragul-a611" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/ragul-a-83899b2a2" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:ragularthanari@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop" data-lightbox-close></div>
+  <div class="lightbox-panel">
+    <button class="lightbox-close" data-lightbox-close aria-label="Close">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-nav--prev" id="lightboxPrev" aria-label="Previous image">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <img src="" alt="" class="lightbox-img" id="lightboxImg">
+    <button class="lightbox-nav lightbox-nav--next" id="lightboxNext" aria-label="Next image">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
